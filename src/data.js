@@ -49,7 +49,12 @@ export const portfolioData = {
       year: "2024 - 2028"
     }
   ],
-  projects: [
+    {
+      title: "Sistema de Vendas",
+      description: "Sistema completo de gestão de vendas com API Spring Boot e banco PostgreSQL.",
+      link: "#", // Link para o deploy do backend ou repositório
+      tags: ["Java", "Spring Boot", "PostgreSQL", "Docker"]
+    },
     {
       title: "E-commerce API",
       description: "API robusta desenvolvida com Spring Boot e PostgreSQL, focada em alta performance.",
