@@ -11,7 +11,11 @@ const Projects = () => {
         {portfolioData.projects.map((project, index) => (
           <div key={index} className="project-card">
             <div className="project-image">
-              {/* Add image here if needed */}
+              {project.image ? (
+                <img src={project.image} alt={project.title} className="image-preview" />
+              ) : (
+                <div className="image-placeholder"></div>
+              )}
             </div>
             <div className="project-info">
               <div className="project-tags">

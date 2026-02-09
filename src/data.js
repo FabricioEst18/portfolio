@@ -1,3 +1,6 @@
+import portfolioImg from './assets/images/Captura de tela de 2026-02-09 17-11-10.png';
+import salesImg from './assets/images/Captura de tela de 2026-02-09 17-07-19.png';
+
 export const portfolioData = {
   name: "Fabricio Cesar",
   title: "Desenvolvedor Software",
@@ -15,7 +18,7 @@ export const portfolioData = {
       company: "Naka Tools",
       role: "Assistente de TI",
       period: "Jan.2026 - Atual",
-      description: "Automação de dados com Python, trabalho para reduzir análises manuais massantes e otimizar fluxos de trabalho. Valorizo o código limpo e a documentação bem feita, garantindo que a tecnologia seja sempre um braço direito para o aumento do lucro e da produtividade."
+      description: "Automação de dados com Python, trabalho para reduzir análises manuais massantes e otimizar fluxos de trabalho. Valorizo o código limpo e a documentação bem feita, garantindo que a tecnologia seja sempre um armço direito para o aumento do lucro e da produtividade."
     },
     {
       company: "Grupo Aqualita",
@@ -38,12 +41,14 @@ export const portfolioData = {
       title: "Portfólio",
       description: "Landing page desenvolvida com React e CSS moderno para destacar habilidades profissionais.",
       link: "https://fabricios.site/",
+      image: portfolioImg,
       tags: ["React", "CSS3", "Vite", "JavaScript", "Node.js"]
     },
     {
       title: "Sistema de Vendas",
       description: "Sistema completo de gestão de vendas com API Spring Boot e banco Supabase(PostgreSQL).",
       link: "https://sistema-vendas-st92.onrender.com/",
+      image: salesImg,
       tags: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Bootstrap", "JQuery"]
     },
   ],
